@@ -1,0 +1,53 @@
+<% @body_id = 'home-page' %>
+<% content_for :sidebar do %>
+  <div data-hook="homepage_sidebar_navigation">
+    <%= render partial: 'spree/shared/taxonomies' %>
+  </div>
+<% end %>
+
+<%= render partial: 'spree/shared/slider' %>
+
+<%= render partial: 'spree/shared/new_collection' %>
+
+<section class="featured-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="titie-section wow fadeInDown">
+          <h1>FEATURED PRODUCTS</h1>
+        </div>
+      </div>
+    </div>
+    <div class="row featured-product">
+      <% cache(cache_key_for_products) do %>
+          <%= render partial: 'spree/shared/products', locals: { products: @products } %>
+      <% end %>
+    </div>
+  </div>
+</section>
+
+<%= render partial: 'spree/shared/season_sale'  %>
+
+<%= render partial: 'spree/shared/best_sellers' %>
+
+<%= render partial: 'spree/shared/customer_review' %>
+
+<%= render partial: 'spree/shared/newsletter' %>
+
+<%= render partial: 'spree/shared/our_partner' %>
+
+<%= render partial: 'spree/shared/lastest_news' %>
+
+<%= render partial: 'spree/shared/contact_us' %>
+
+<!--<div data-hook="homepage_products">-->
+  <!--<% cache(cache_key_for_products) do %>-->
+    <!--<%= render partial: 'spree/shared/products', locals: { products: @products } %>-->
+  <!--<% end %>-->
+<!--</div>-->
+
+<%= javascript_include_tag 'jquery-1.11.2.min' %>
+<%= javascript_include_tag 'isotope.pkgd.min' %>
+<%= javascript_include_tag 'owl.carousel.min' %>
+<%= javascript_include_tag 'wow.min' %>
+<%= javascript_include_tag 'custom' %>
