@@ -10,7 +10,7 @@ GIT
 
 GIT
   remote: https://github.com/rubyonrailsdeveloper/spree.git
-  revision: 23594c1e1151daf3acc51633fa9769e99309a23b
+  revision: f5c5444acf9910b310decad7d7485eb11d6a0014
   specs:
     spree (3.6.6)
       spree_api (= 3.6.6)
