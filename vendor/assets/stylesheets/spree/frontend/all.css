@@ -20,11 +20,11 @@
  *= require spree/frontend/spree_best_sellers
  *= require store/spree_fancy_menu
 */
-@import url(font-awesome.css) screen;
-@import url(bootstrap.css) screen;
-@import url(owl.carousel.css) screen;
-@import url(pe-icon-7-stroke.css) screen;
-@import url(animate.min.css) screen;
+@import "font-awesome.css";
+@import "bootstrap.css";
+@import "owl.carousel.css";
+@import "pe-icon-7-stroke.css";
+@import "animate.min.css";
 
 /* FONTS  *= require spree/frontend/spree_reviews
  *= require spree/frontend/spree_best_sellers
