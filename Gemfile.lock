@@ -1,16 +1,18 @@
 GIT
+  remote: https://github.com/rubyonrailsdeveloper/spree-fancy_menu.git
+  revision: c9dc67daffd494ab24baa5a8cc3e2e6ec8b68b8c
+  specs:
+    spree_fancy_menu (0.7.0)
+      bootstrap-sass
+      jquery-ui-rails
+      spree_auth_devise (>= 2.2.0)
+      spree_core (>= 2.3.1)
+
+GIT
   remote: https://github.com/rubyonrailsdeveloper/spree_best_seller.git
   revision: 7c2d909d5c754a9decd9194e9adf0abf5c26fa4b
   specs:
     spree_best_sellers (3.0.0)
-      spree_core (~> 3.6.6)
-
-GIT
-  remote: https://github.com/rubyonrailsdeveloper/spree_blog.git
-  revision: 8daf979a8eba17603adcf11f66f7582cd94afb7b
-  specs:
-    spree_blogging_spree (3.0.0)
-      acts-as-taggable-on (~> 6.0)
       spree_core (~> 3.6.6)
 
 GIT
@@ -445,9 +447,9 @@ DEPENDENCIES
   spree (~> 3.6.4)
   spree_auth_devise (~> 3.4)
   spree_best_sellers!
-  spree_blogging_spree!
   spree_comments!
   spree_contact_us!
+  spree_fancy_menu!
   spree_gateway (~> 3.4)
   spree_related_products!
   spree_reviews!

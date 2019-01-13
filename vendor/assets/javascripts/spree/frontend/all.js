@@ -12,3 +12,4 @@
 //= require_tree .
 //= require spree/frontend/spree_reviews
 //= require spree/frontend/spree_best_sellers
+//= require store/spree_fancy_menu

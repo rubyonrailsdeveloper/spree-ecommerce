@@ -18,7 +18,7 @@
 
         <!--<%= render partial: 'spree/shared/sidebar' if content_for? :sidebar %>-->
 
-        <div id="content" class="<%= !content_for?(:sidebar)? "col-sm-12" : "col-sm-12 col-md-12" %>" data-hook>
+        <div id="content" class="<%= !content_for?(:sidebar)? "container" : "col-sm-12 col-md-12" %>" data-hook>
           <%= flash_messages %>
 
           <%= yield %>
@@ -27,5 +27,6 @@
         <%= yield :templates %>
       </div>
     </div>
+    <%= render partial: 'spree/shared/footer' %>
   </body>
 </html>

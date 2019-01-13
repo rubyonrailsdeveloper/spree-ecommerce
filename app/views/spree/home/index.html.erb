@@ -33,12 +33,69 @@
 <%= render partial: 'spree/shared/customer_review' %>
 
 <%= render partial: 'spree/shared/newsletter' %>
+<!--<div class="form-style subscribe-now bottom-gap-lg">-->
+  <!--<div class="input-group">-->
+    <!--<input class="input-field form-control" data-target="#specials-form" data-toggle="modal" placeholder="Enter Email for Monthly Specials" required="true" style="text-transform: none;">-->
+    <!--<span class="input-group-btn">-->
+        <!--<button class="btn btn-default" data-target="#specials-form" data-toggle="modal" type="button">-->
+          <!--<i class="icon-checkmark"></i>-->
+        <!--</button>-->
+      <!--</span>-->
+    <!--</input>-->
+  <!--</div>-->
+<!--</div>-->
+<!--<div id="specials-form" class="modal fade in" aria-hidden="false" aria-labelledby="specials-form" role=>-->
+  <!--<div class="modal-dialog">-->
+    <!--<div class="modal-content">-->
+      <!--<div class="modal-header">-->
+        <!--<button class="close" aria-hidden="true" data-dismiss="modal" type="button"></button>-->
+        <!--<h4 class="modal-title">Sign up for Monthly Specials</h4>-->
+      <!--</div>-->
+      <!--<div class="modal-body">-->
+        <!--<div id="monthly-specials">-->
+          <!--<div id="subscribe-success-msg">-->
+            <!--<%= simple_form_for Subscriber.new do |f| %>-->
+                <!--<form id="subscribe-form" class="well">-->
+                  <!--<div class="col-md-12">-->
+                    <!--<h3>Subscribe For Our Monthly Specials</h3>-->
+                  <!--</div>-->
+                  <!--<div class="control-group">-->
+                    <!--<div class="controls">-->
+                      <!--<%= f.input :name, label: false, input_html: { class: 'form-control bottom-gap-sm', placeholder: 'Name' } %>-->
+                    <!--</div>-->
+                  <!--</div>-->
+                  <!--<div class="control-group">-->
+                    <!--<div class="controls">-->
+                      <!--<%= f.input :email, label: false, input_html: { class: 'form-control bottom-gap-sm', placeholder: 'Email' } %>-->
+                    <!--</div>-->
+                  <!--</div>-->
+                  <!--<div class="control-group">-->
+                    <!--<div class="controls">-->
+                      <!--<%= f.input :phone, label: false, input_html: { class: 'form-control bottom-gap-sm', placeholder: 'Best Contact Number' } %>-->
+                    <!--</div>-->
+                  <!--</div>-->
+                  <!--<div class="control-group">-->
+                    <!--<div class="controls">-->
+                      <!--<%= f.input :message, label: false, input_html: { class: 'form-control', placeholder: 'Equipment Desired', style: 'resize: none; height: 140px;' } %>-->
+                    <!--</div>-->
+                  <!--</div>-->
+                  <!--<div class="control-group">-->
+                    <!--<div class="controls">-->
+                      <!--<%= f.button :submit, "Subscribe", :class => 'btn btn-primary btn-block' %>-->
+                    <!--</div>-->
+                  <!--</div>-->
+                <!--</form>-->
+            <!--<% end %>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->
 
 <%= render partial: 'spree/shared/our_partner' %>
 
 <%= render partial: 'spree/shared/lastest_news' %>
-
-<%= render partial: 'spree/shared/contact_us' %>
 
 <!--<div data-hook="homepage_products">-->
   <!--<% cache(cache_key_for_products) do %>-->
