@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28448d60-dc88-4672-a959-2de779a11ef9" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/spree/frontend/all.css" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/spree/frontend/all.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/spree/frontend/all.css" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/spree/frontend/all.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -59,24 +59,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="font-awesome.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/spree/frontend/font-awesome.css">
+      <file leaf-file-name="all.css.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/spree/frontend/all.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/spree/frontend/all.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+            <state relative-caret-position="219">
+              <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding>
-                <marker date="1547404397177" expanded="true" signature="0:465" ph="/*...*/" />
-                <marker date="1547404397177" expanded="true" signature="26682:26685" ph="/*...*/" />
+                <marker date="1547406333163" expanded="true" signature="0:465" ph="/*...*/" />
+                <marker date="1547406333163" expanded="true" signature="26643:26646" ph="/*...*/" />
               </folding>
             </state>
           </provider>
@@ -218,6 +208,7 @@
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/public/assets/spree/frontend/all-2cc91f802c503c710f2bf64da89ca6399b7a09304219a0f9ff9e17e5fd413b38.css" />
         <option value="$PROJECT_DIR$/vendor/assets/stylesheets/spree/frontend/all.css" />
+        <option value="$PROJECT_DIR$/vendor/assets/stylesheets/spree/frontend/all.css.scss" />
       </list>
     </option>
   </component>
@@ -453,12 +444,12 @@
       <workItem from="1547222630725" duration="16000" />
       <workItem from="1547265898706" duration="3019000" />
       <workItem from="1547298013260" duration="14328000" />
-      <workItem from="1547329949347" duration="23667000" />
+      <workItem from="1547329949347" duration="25572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100090000" />
+    <option name="totallyTimeSpent" value="101995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1777" height="1027" extended-state="6" />
@@ -471,7 +462,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6158129" sideWeight="0.49797806" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37973273" sideWeight="0.49797806" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -909,13 +900,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/spree/frontend/all.css">
+    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/spree/frontend/all.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        <state relative-caret-position="219">
+          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
-            <marker date="1547404397177" expanded="true" signature="0:465" ph="/*...*/" />
-            <marker date="1547404397177" expanded="true" signature="26682:26685" ph="/*...*/" />
+            <marker date="1547406333163" expanded="true" signature="0:465" ph="/*...*/" />
+            <marker date="1547406333163" expanded="true" signature="26643:26646" ph="/*...*/" />
           </folding>
         </state>
       </provider>
