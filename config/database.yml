@@ -23,12 +23,12 @@ default: &default
 
 development:
   <<: *default
-#  database: dishcountleasing_dev
-#  username: development
-#  password: 123
-  database: dck3oolr45b6g2
-  username: rrbrfjgqgadxip
-  password: 81fb9aada1c6b219210662a239f7fbd3f93106a182d4d72eea6f808ce4625ee5
+  database: dishcountleasing_dev
+  username: development
+  password: 123
+#  database: dck3oolr45b6g2
+#  username: rrbrfjgqgadxip
+#  password: 81fb9aada1c6b219210662a239f7fbd3f93106a182d4d72eea6f808ce4625ee5
 
 
   # The specified database role being used to connect to postgres.
