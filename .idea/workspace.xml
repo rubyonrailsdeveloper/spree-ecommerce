@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28448d60-dc88-4672-a959-2de779a11ef9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/e-commerce.iml" afterPath="$PROJECT_DIR$/.idea/e-commerce.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
     </list>
@@ -23,7 +22,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
+            <state relative-caret-position="78">
               <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="49" />
               <folding />
             </state>
@@ -41,7 +40,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sidebar-menu-item</find>
       <find>main-sidebar</find>
       <find>spree demo</find>
       <find>logo</find>
@@ -71,6 +69,7 @@
       <find>forbidden</find>
       <find>phicons-halflings-regular.woff</find>
       <find>bootstrap</find>
+      <find>Pe-icon-7-stroke.woff</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/public</dir>
@@ -400,12 +399,12 @@
       <workItem from="1547329949347" duration="34671000" />
       <workItem from="1547476288276" duration="1960000" />
       <workItem from="1547480441502" duration="530000" />
-      <workItem from="1547481030996" duration="4291000" />
+      <workItem from="1547481030996" duration="7252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117875000" />
+    <option name="totallyTimeSpent" value="120836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1777" height="1027" extended-state="6" />
@@ -790,7 +789,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="78">
           <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="49" />
           <folding />
         </state>
