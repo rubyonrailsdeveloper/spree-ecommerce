@@ -17,7 +17,8 @@
  *= require spree/frontend/spree_best_sellers
  *= require store/spree_fancy_menu
 */
-/* STYLE  *= require spree/frontend/spree_reviews
+/* STYLE
+ *= require spree/frontend/spree_reviews
  *= require spree/frontend/spree_best_sellers
  *= require store/spree_fancy_menu
 */
@@ -79,14 +80,16 @@
     color: #555252 !important;
 }
 :-moz-placeholder {
-    /* Firefox 18-  *= require spree/frontend/spree_reviews
+    /* Firefox 18-
+ *= require spree/frontend/spree_reviews
  *= require spree/frontend/spree_best_sellers
  *= require store/spree_fancy_menu
 */
     color: #555252 !important;
 }
 ::-moz-placeholder  {
-    /* Firefox 19+  *= require spree/frontend/spree_reviews
+    /* Firefox 19+
+ *= require spree/frontend/spree_reviews
  *= require spree/frontend/spree_best_sellers
  *= require store/spree_fancy_menu
 */
@@ -529,7 +532,8 @@ span.shoping-cart {
     display: block;
     background: rgba(0, 0, 0, 0.52);
     z-index: 9
-} *= require spree/frontend/spree_reviews
+}
+ *= require spree/frontend/spree_reviews
  *= require spree/frontend/spree_best_sellers
  *= require store/spree_fancy_menu
 */
@@ -646,7 +650,8 @@ a.carousel-control.right > span{
     height: 0;
     background: #46bfa9;
     /* border-width: 50px 100px 50px 0;
-     border-color: transparent #46bfa9 transparent transparent; *= require spree/frontend/spree_reviews
+     border-color: transparent #46bfa9 transparent transparent;
+ *= require spree/frontend/spree_reviews
  *= require spree/frontend/spree_best_sellers
  *= require store/spree_fancy_menu
 */
@@ -656,7 +661,8 @@ a.carousel-control.right > span{
     height: 0;
     background: #46bfa9;
     /*border-width: 50px 0 50px 100px;
-    border-color: transparent transparent transparent #46bfa9; *= require spree/frontend/spree_reviews
+    border-color: transparent transparent transparent #46bfa9;
+ *= require spree/frontend/spree_reviews
  *= require spree/frontend/spree_best_sellers
  *= require store/spree_fancy_menu
 */
@@ -1018,7 +1024,8 @@ a.carousel-control.right > span{
     float: left;
     position: relative;
     border: 5px solid #000;
-    /*margin: 10px; *= require spree/frontend/spree_reviews
+    /*margin: 10px;
+ *= require spree/frontend/spree_reviews
  *= require spree/frontend/spree_best_sellers
  *= require store/spree_fancy_menu
 */
@@ -1032,7 +1039,8 @@ a.carousel-control.right > span{
     float: left;
     position: relative;
     border: 5px solid #1abc9c;
-    /*margin: 10px; *= require spree/frontend/spree_reviews
+    /*margin: 10px;
+ *= require spree/frontend/spree_reviews
  *= require spree/frontend/spree_best_sellers
  *= require store/spree_fancy_menu
 */
@@ -1079,7 +1087,8 @@ a.carousel-control.right > span{
     margin-top: 50px;
 }
 .form-inline{
-    /*width: 100%;    *= require spree/frontend/spree_reviews
+    /*width: 100%;
+ *= require spree/frontend/spree_reviews
  *= require spree/frontend/spree_best_sellers
  *= require store/spree_fancy_menu
 */
@@ -1220,7 +1229,8 @@ a.carousel-control.right > span{
 */
 .contact-section{
     background: url(map-bg.png) #2d3237 no-repeat;
-    /*  background-size: 100%;    *= require spree/frontend/spree_reviews
+    /*  background-size: 100%;
+ *= require spree/frontend/spree_reviews
  *= require spree/frontend/spree_best_sellers
  *= require store/spree_fancy_menu
 */
@@ -1320,7 +1330,8 @@ a.carousel-control.right > span{
     border: 1px solid #1abc9c;
 }
 
-/* SEARCH Result Page Style  *= require spree/frontend/spree_best_sellers
+/* SEARCH Result Page Style
+ *= require spree/frontend/spree_best_sellers
  *= require store/spree_fancy_menu
 */
 .search-results-title{
