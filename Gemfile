@@ -42,6 +42,17 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
+gem 'spree', github: 'rubyonrailsdeveloper/spree'
+gem 'spree_auth_devise', '~> 3.4'
+gem 'spree_gateway', '~> 3.4'
+gem 'spree_comments', github: 'spree-contrib/spree_comments'
+gem 'spree_reviews', github: 'spree-contrib/spree_reviews'
+gem 'spree_related_products', github: 'spree-contrib/spree_related_products'
+gem 'spree_contact_us', github: 'rubyonrailsdeveloper/spree_contactUs'
+# gem 'spree_blogging_spree', github: 'rubyonrailsdeveloper/spree_blog'
+gem 'spree_best_sellers', github: 'rubyonrailsdeveloper/spree_best_seller'
+gem 'spree_fancy_menu', github: 'rubyonrailsdeveloper/spree-fancy_menu'
+
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
@@ -62,13 +73,4 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'spree', github: 'rubyonrailsdeveloper/spree'
-gem 'spree_auth_devise', '~> 3.4'
-gem 'spree_gateway', '~> 3.4'
-gem 'spree_comments', github: 'spree-contrib/spree_comments'
-gem 'spree_reviews', github: 'spree-contrib/spree_reviews'
-gem 'spree_related_products', github: 'spree-contrib/spree_related_products'
-gem 'spree_contact_us', github: 'rubyonrailsdeveloper/spree_contactUs'
-# gem 'spree_blogging_spree', github: 'rubyonrailsdeveloper/spree_blog'
-gem 'spree_best_sellers', github: 'rubyonrailsdeveloper/spree_best_seller'
-gem 'spree_fancy_menu', github: 'rubyonrailsdeveloper/spree-fancy_menu'
+
