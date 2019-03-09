@@ -2072,4 +2072,15 @@
 .fa-shopping-basket:before {
   content: "\f291";
 }
-
+.fa-hashtag:before {
+  content: "\f292";
+}
+.fa-bluetooth:before {
+  content: "\f293";
+}
+.fa-bluetooth-b:before {
+  content: "\f294";
+}
+.fa-percent:before {
+  content: "\f295";
+}
